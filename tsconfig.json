@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS", // ES 모듈 사용
+    "moduleResolution": "node",
+    "esModuleInterop": true, // CommonJS와 호환되는 ES 모듈
+    "outDir": "./dist",
+    "allowJs": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
